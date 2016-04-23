@@ -249,7 +249,7 @@ BigInt ct_inverse_mod_odd_modulus(const BigInt& n, const BigInt& mod)
 
    while(bits--)
       {
-#if 1
+#if 0
       const word odd = a.is_odd();
       a -= odd * b;
       const word underflow = a.is_negative();
